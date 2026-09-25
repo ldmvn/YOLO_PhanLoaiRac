@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Model weights and generated training outputs can be large.
+models/*.pt
+runs/*
+!runs/.gitkeep
+
+# Local demo data.
+test_images/*
+!test_images/.gitkeep

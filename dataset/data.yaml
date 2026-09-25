@@ -1,0 +1,14 @@
+# Dataset configuration for YOLO Ultralytics
+path: .
+train: images/train
+val: images/val
+
+names:
+  0: nhua
+  1: thuy_tinh
+  2: kim_loai
+  3: giay
+  4: rac_huu_co
+
+nc: 5
+
